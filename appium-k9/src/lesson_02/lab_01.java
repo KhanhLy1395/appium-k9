@@ -21,8 +21,10 @@ public class lab_01 {
             System.out.printf("Ban can tang %f can", gainWeight - weight);
         } else if (BMI <=24.9){
             System.out.println("Than hinh chuan");
-        } else {
+        } else if (BMI <= 29.9){
             System.out.printf("Ban can giam %f can", weight - loseWeight);
+        } else {
+            System.out.printf("Ban bi beo phi, ban can giam %f can" , weight - loseWeight);
         }
     }
 }

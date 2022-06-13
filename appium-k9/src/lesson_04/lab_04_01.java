@@ -1,11 +1,10 @@
 package lesson_04;
 
-import java.security.SecureRandom;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class lab_05_01 {
+public class lab_04_01 {
 
     public static void main(String[] args) {
 
@@ -29,7 +28,8 @@ public class lab_05_01 {
                     number.add(scanner.nextInt());
                     addNumberTime++;
                 } while (addNumberTime < 3);
-                break;
+                    break;
+
             case 2:
                 System.out.println("Print numbers");
 

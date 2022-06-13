@@ -1,35 +1,18 @@
 package lesson_07;
 
 public class RobotCat {
-
     private String name;
-    private String productionDate;
+    private String productionName;
 
     public RobotCat() {
     }
 
-    public RobotCat(String name, String productionDate) {
+    public RobotCat(String name, String productionName) {
         this.name = name;
-        this.productionDate = productionDate;
+        this.productionName = productionName;
     }
 
     public String charge(){
-        return "Charging ";
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getProductionDate() {
-        return productionDate;
-    }
-
-    public void setProductionDate(String productionDate) {
-        this.productionDate = productionDate;
+       return "Charging";
     }
 }

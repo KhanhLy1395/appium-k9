@@ -1,6 +1,4 @@
-package lab_7;
-
-import javax.xml.namespace.QName;
+package lab_07_01;
 
 public class Employee {
 

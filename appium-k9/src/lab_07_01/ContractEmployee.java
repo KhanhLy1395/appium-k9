@@ -1,4 +1,4 @@
-package lab_7;
+package lab_07_01;
 
 public class ContractEmployee extends Employee{
 

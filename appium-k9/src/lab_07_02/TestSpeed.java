@@ -15,11 +15,13 @@ public class TestSpeed {
         System.out.println("Horse: " + horseSpeed);
         if (dogSpeed > horseSpeed && dogSpeed > tigerSpeed)
            System.out.println("Dog is winner with speed: " + dogSpeed);
-       else if (horseSpeed > dogSpeed && horseSpeed >tigerSpeed)
+        else if (horseSpeed > dogSpeed && horseSpeed >tigerSpeed)
            System.out.println("Horse is winner with speed: " + horseSpeed);
-       else if (tigerSpeed > horseSpeed && tigerSpeed > dogSpeed)
+        else if (tigerSpeed > horseSpeed && tigerSpeed > dogSpeed)
            System.out.println("Tiger is winner with speed: " + tigerSpeed);
-
+        else {
+            System.out.println("There are at least 2 animal has the same speed");
+        }
     }
 
 

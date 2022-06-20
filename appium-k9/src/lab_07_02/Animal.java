@@ -6,12 +6,11 @@ import java.security.SecureRandom;
 public class Animal {
     private String name;
     private int speed;
+    private boolean flyable;
+
     public Animal(int maxSpeed) {
         this.speed = new SecureRandom().nextInt(maxSpeed);
     }
-
-
-    private boolean flyable;
 
     public String getName() {
         return name;

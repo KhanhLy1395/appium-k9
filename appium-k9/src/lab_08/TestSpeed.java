@@ -21,11 +21,17 @@ public class TestSpeed {
         animalList.add(dog);
         animalList.add(horse);
         animalList.add(eagle);
+        Animal winner = animalList.get(0);
+
 
         for (int i = 0; i < animalList.size(); i++) {
-            if (animalList.get(i).getSpeed() > 0);
+            if (animalList.get(i).isFlyable()) {
+                animalList.remove(i);
+            } else if (animalList.get(i).getSpeed() > winner.getSpeed()) {
+                winner = animalList.get(i);
+            }
         }
-
+        System.out.println("Winner is " + winner.getName() + " with speed " + winner.getSpeed());
     }
 
 }

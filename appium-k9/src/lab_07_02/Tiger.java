@@ -2,17 +2,10 @@ package lab_07_02;
 
 public class Tiger extends Animal{
 
-    private int speed;
+    private static int TIGER_MAX_SPEED = 75;
+
 
     public Tiger() {
-    }
-
-    public Tiger(int speed) {
-        this.speed = speed;
-    }
-
-    @Override
-    public int getSpeed() {
-        return super.getSpeed();
+        super(TIGER_MAX_SPEED);
     }
 }

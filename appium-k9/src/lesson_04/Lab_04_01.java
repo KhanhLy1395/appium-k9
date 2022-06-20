@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class lab_04_01 {
+public class Lab_04_01 {
 
     public static void main(String[] args) {
 

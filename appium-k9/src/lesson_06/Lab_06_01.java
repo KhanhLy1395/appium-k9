@@ -1,8 +1,6 @@
 package lesson_06;
 
-import java.util.List;
-
-public class lab_06_01 {
+public class Lab_06_01 {
 
 
     public static void main(String[] args) {

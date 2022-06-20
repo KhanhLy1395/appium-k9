@@ -2,7 +2,7 @@ package lesson_06;
 
 import java.util.Scanner;
 
-public class lab_06_02 {
+public class Lab_06_02 {
 
     public static void main(String[] args) {
         String myPassword = "password123";

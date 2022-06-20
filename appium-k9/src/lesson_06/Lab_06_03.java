@@ -1,6 +1,6 @@
 package lesson_06;
 
-public class lab_06_03 {
+public class Lab_06_03 {
 
     public static void main(String[] args) {
         String myStr = "100 minutes";

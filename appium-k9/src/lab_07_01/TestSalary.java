@@ -14,7 +14,7 @@ public class TestSalary {
         Employee employee5 = new FullTimeEmployee();
 
         SalaryController totalSalary = new SalaryController();
-        System.out.println(totalSalary.getTotalSalary(Arrays.asList(employee1, employee2, employee3, employee4, employee5)));
+        System.out.println("Total salary: " + totalSalary.getTotalSalary(Arrays.asList(employee1, employee2, employee3, employee4, employee5)));
 
     }
 }

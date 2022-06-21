@@ -14,14 +14,20 @@ public class TestSpeed {
         animalList.add(dog);
         animalList.add(horse);
         animalList.add(tiger);
+
+        String winnerName = getMaxSpeedAnimal(animalList).getName();
+        int winnerSpeed = getMaxSpeedAnimal(animalList).getSpeed();
+        System.out.println("Winner is " + winnerName + " with speed " + winnerSpeed);
+
+    }
+
+    public static Animal getMaxSpeedAnimal(List<Animal> animalList){
         Animal winner = animalList.get(0);
-
-
         for (int i = 0; i < animalList.size(); i++) {
-            if (animalList.get(i).getSpeed() > winner.getSpeed()) {
+            if (animalList.get(i).getSpeed() > winner.getSpeed()){
                 winner = animalList.get(i);
             }
         }
-        System.out.println("Winner is " + winner.getClass().getSimpleName() + " with speed " + winner.getSpeed());
+    return winner;
     }
 }

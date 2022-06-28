@@ -10,7 +10,12 @@ public class Tiger extends Animal{
     }
 
     @Override
+    public String getName() {
+        return "Tiger";
+    }
+
+    @Override
     public int getSpeed() {
-        return this.TIGER_MAX_SPEED;
+        return this.speed;
     }
 }

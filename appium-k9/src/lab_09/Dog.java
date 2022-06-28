@@ -12,7 +12,12 @@ public class Dog extends Animal{
 
 
     @Override
+    public String getName() {
+        return "Dog";
+    }
+
+    @Override
     public int getSpeed() {
-        return this.DOG_MAX_SPEED;
+        return this.speed;
     }
 }

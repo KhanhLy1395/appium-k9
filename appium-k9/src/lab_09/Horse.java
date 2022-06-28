@@ -12,7 +12,14 @@ public class Horse extends Animal{
     }
 
     @Override
-    public int getSpeed() {
-        return this.HORSE_MAX_SPEED;
+    public String getName() {
+        return "Horse";
     }
+
+    @Override
+    public int getSpeed() {
+        return this.speed;
+    }
+
+
 }
